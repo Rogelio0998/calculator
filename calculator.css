@@ -1,0 +1,83 @@
+body{
+    background-image: linear-gradient(to right, rgb(100, 164, 185) ,lightgreen);
+}
+
+#calculator{
+  display: flex;
+  flex-direction: column;
+  border: solid black 1px;
+  width: 200px;
+  background-color: lightblue;
+  padding: 10px;
+ margin-top: 200px;
+ margin-left: auto;
+ margin-right: auto;   
+}
+
+#topDisplay {
+display: grid;  
+margin-left: auto;
+margin-right: auto;  
+font-size: 40px;
+padding: 2px;
+background-color: grey;
+box-sizing: border-box;
+color: white;
+width: 200px;
+height: 45px;
+text-align: right;
+border: black solid 1px;
+
+
+}
+#firstRow{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+#secondRow{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+#thirdRow{
+    display:flex;
+    justify-content: center;
+    height: 50px;
+}
+#fourthRow{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+#fifthRow{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    
+}
+button{
+    background-color: lightgreen;
+    margin: 1px;
+    border-radius: 5%;
+    width: 80px;
+    
+}
+#zero{
+    width: 178px;
+}
+.clear{
+    background-color: gold;
+}
+
+.negative{
+    background-color: gold;
+}
+.delete{
+    background-color: gold;
+}
+.operator{
+    background-color: rgba(241, 133, 241, 0.932);
+    font-size: large;
+    
+}
